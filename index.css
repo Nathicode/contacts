@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+
+}
+body {
+    width: 100%;
+    height: 100vh;
+    padding: unset;
+    margin: unset;
+
+}
+.top {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-color: lightskyblue;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.top input {
+    border: none;
+    border-radius: 3px;
+}
+.top button {
+    background-color: white;
+    color: lightskyblue;
+    border: .5px solid;
+    border-radius: 3px;
+    font-weight: bold;
+    height: 20px;
+
+}
+.input {
+    width: 100%;
+    margin-top: 2cap;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+   width: 50%;
+   margin-top: 2cm;
+   padding: 10px;
+   height: 50vh;
+   justify-content: ;
+   background-color: lightskyblue;
+
+
+}
+.input label {
+    color: white;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.input input {
+    border: .5px lightblue;
+    border-radius: 3px;
+    margin-top: .5cm;
+}
+.input button {
+    margin-top: 1cm;
+    width: 120px;
+    margin: auto;
+    height: 30px;
+    background-color: white;
+    border: .5px lightblue;
+    border-radius: 3px;
+    color: lightskyblue;
+    font-weight: bold;
+
+}
+input:focus {
+    outline: none;
+    box-shadow: 0 0 10px lightgreen;
+}
+button:hover {
+    outline: none;
+    box-shadow: 0 0 10px lightgreen;
+}
+input:hover {
+    outline: none;
+    box-shadow: 0 0 10px lightgreen;
+}
+.cards {
+    padding: 1cm;
+}
+#card {
+    display: flex;
+    flex-direction: column;
+    background: lightskyblue;
+    border-radius: 5px;
+    border: .5px solid lightskyblue;
+    width: 50%;
+    height: 40vh;
+   text-transform: uppercase;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 1cm;
+   
+    
+}
+#card:hover {
+    box-shadow: 0 0 10px lightskyblue;
+}
+#card p {
+    width: 100%;
+   
+  
+}
+#info {
+    background-color: white;
+    color: lightskyblue;
+    text-transform: uppercase;
+    text-align: center;
+    height: ;
+    
+    width: 100%;
+
+}
+#qr {
+    width: 100px;
+    margin: auto;
+}
+.cards {
+    text-align: center;
+    margin: auto;
+}
+@media (min-width: 700px){
+    #card {
+        width: 30%;
+    }
+}
+#back {
+    width: 120px;
+    height: 30px;
+    background-color: lightskyblue;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    margin: auto;
+
+}
+.button {
+    text-align: center;
+    display: none;
+}
+#back:hover {
+    box-shadow: 0 0 10px lightgreen;
+}
